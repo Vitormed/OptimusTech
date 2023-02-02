@@ -1,0 +1,49 @@
+header {
+    font-family: var(--fonte-principal);
+}
+
+.cabeçalho {
+    display: flex;
+    align-items: center;
+    padding: 0 6em;
+}
+
+.título__cabeçalho {
+    color: var(--cinza);
+    margin: .3em;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.lista__cabeçalho {
+    display: flex;
+    margin: 0 auto;
+    margin-left: 3em;
+}
+
+.lista__cabeçalho-link {
+    color: var(--cinza-letra);
+}
+
+.lista__cabeçalho-item, .lista__cabeçalho-item2 {
+    display: flex;
+}
+
+.lista__cabeçalho-link, .lista__cabeçalho-link2 {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 1em;
+    font-weight: 500;
+}
+
+.lista__cabeçalho-2 {
+    display: flex;
+    align-items: flex-end;
+}
+
+#botão {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    border-radius: 8px;
+    padding: 1em 2em;
+}

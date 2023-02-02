@@ -1,0 +1,149 @@
+.título {
+    text-align: center;
+}
+body {
+    font-family: var(--fonte-principal);
+}
+.body__título {
+    color: var(--vermelho);
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 8em;
+}
+
+.body__título-principal {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--azul-escuro);
+}
+
+.body__texto {
+    font-size: 20px;
+    font-weight: 400;
+    width: 60%;
+    margin: 0 auto;
+    color: var(--cinza-letra);
+}
+
+.lacuna {
+    display: flex;
+    margin: 6em 0;
+    justify-content: center;
+}
+
+.lacuna__1, .lacuna__2, .lacuna__3, .lacuna__4 {
+    padding: 1em;
+}
+
+.lacuna__título-principal {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho);
+    width: 30%;
+}
+
+.lacuna__título {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--azul-escuro);
+}
+
+.lacuna__texto {
+    font-size: 16px;
+    font-weight: 400;
+    width: 280px;
+    height: 48px;
+    color: var(--cinza-letra);
+}
+
+.vagas {
+    text-align: center;
+}
+
+.vagas__título-principal {
+    display: flex;
+    justify-content: center;
+    color: var(--vermelho);
+    font-size: 14px;
+    font-weight: 500;
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    width: 125px;
+    height: 22px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vagas__título {
+    color: var(--azul-escuro);
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.vagas__texto {
+    color: var(--cinza-letra);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.imagem {
+    width: 80%;
+    margin-top: 6rem;
+}
+
+.design {
+    display: inline-block;
+    margin-left: 25vw;
+    margin-top: 5em;
+}
+
+.design__div {
+    border: 2px solid #EAECF0;
+    padding-right: 18em;
+    padding-left: 2em;
+    border-radius: 24px;
+    margin: 2em 0;
+}
+
+.design__título-principal, .design__título-secundario {
+    color: var(--azul-escuro);
+}
+
+.design__p1, .design__p2 {
+    color: var(--cinza-letra);
+}
+
+.colaboradores {
+    display: inline-block;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 5em;
+    text-align: center;
+    background: rgba(196, 25, 25, 0.03);
+    border: 1.5px solid var(--cinza);
+    border-radius: 16px;
+}
+
+.colaboradores__títlo-secundário {
+    color: var(--vermelho);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.colaboradores__título-principal {
+    color: var(--azul-escuro);
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.colaboradores__título-img {
+    color: var(--azul-escuro);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.colaboradores__legenda {
+    color: var(--cinza-letra);
+    font-size: 14px;
+    font-weight: 400;
+}

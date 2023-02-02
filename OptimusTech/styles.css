@@ -1,0 +1,14 @@
+@import url(header.css);
+@import url(body.css);
+@import url(footer.css);
+
+:root {
+    --vermelho: #8E2424;
+    --cinza: #3A404E;
+    --cinza-letra: #667085;
+    --branco: #FFFFFF;
+    --fonte-principal: "Inter";
+    --azul-escuro: #101828;
+    --cinza-claro: #98A2B3;
+    --background: #F9FAFB;
+}
